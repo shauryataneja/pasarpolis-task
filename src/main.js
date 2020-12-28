@@ -6,7 +6,7 @@ function getSecondMax(arr){
         let trimCache = {};
         let max, secondMax;
         let err = arr.some(ele => {
-            if(isInvalidNumber(ele)){
+            if(typeof ele != 'string' || isInvalidNumber(ele)){
                 return true;
             }
             let trimStr = trim(ele);
