@@ -1,0 +1,18 @@
+{
+  "name": "pasarpolis-task",
+  "version": "1.0.0",
+  "description": "Finding second Maximum Integer among a set of strings",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "4.1.0"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/mocha --recursive --exit --timeout 10000"
+  },
+  "author": "shauryataneja",
+  "license": "ISC"
+}
